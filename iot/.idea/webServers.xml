@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="867b60ad-eeea-4c07-ab65-a2125bedde70" name="iot">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="101.34.100.50" port="22" sshConfigId="fdb634b5-b7bd-4fdb-8a1a-42e8407a052e" sshConfig="ubuntu@101.34.100.50:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
