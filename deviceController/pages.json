@@ -1,0 +1,138 @@
+{
+	"leftWindow": {
+		"path": "windows/left-window.vue",
+		"style": {
+			"width": "200px"
+		}
+	},
+	"topWindow": {
+		"path": "windows/top-window.vue",
+		"style": {
+			"height": "60px"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/device/devicelist",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/component/component",
+			"style": {
+				"navigationBarTitleText": "内置组",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		// ,{
+		// 	"path": "pages/component/view/view",
+		// 	"style": {
+		// 		"navigationBarTitleText": "view"
+		// 	}
+		// },
+		{
+			"path": "pages/tabBar/API/API",
+			"style": {
+				"navigationBarTitleText": "API",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#FFFFFF"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/device/deviceInstances/LED",
+			"style": {
+				// "navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/index2",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/record/operation",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+		// {
+		// 	"path": "/pages/component/view/view",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// }
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			// {
+			// 	"pagePath": "pages/tabBar/component/component",
+			// 	"iconPath": "static/component.png",
+			// 	"selectedIconPath": "static/componentHL.png",
+			// 	"text": "内置组件"
+			// },
+			// {
+			// 	"pagePath": "pages/tabBar/API/API",
+			// 	"iconPath": "static/api.png",
+			// 	"selectedIconPath": "static/apiHL.png",
+			// 	"text": "接口"
+			// }
+
+		
+		
+			// , {
+			// 	"pagePath": "pages/tabBar/extUI/extUI",
+			// 	"iconPath": "static/extui.png",
+			// 	"selectedIconPath": "static/extuiHL.png",
+			// 	"text": "扩展组件"
+			// }, {
+			// 	"pagePath": "pages/tabBar/template/template",
+			// 	"iconPath": "static/template.png",
+			// 	"selectedIconPath": "static/templateHL.png",
+			// 	"text": "模板"
+			// }
+		]
+	}
+}
