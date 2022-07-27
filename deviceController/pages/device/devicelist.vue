@@ -35,7 +35,12 @@
 				</uni-tr>
 			</uni-table>
 			<view class="uni-pagination-box"><uni-pagination show-icon :page-size="pageSize" :current="pageCurrent" :total="total" @change="change" /></view>
+		
 		</view>
+		<view style="position:absolute; bottom: 5vh;left:40%;">
+			<uni-link href="https://beian.miit.gov.cn/" text="闽ICP备2021002444号-1"></uni-link>
+		</view>
+				
 
 		<view>
 			<!-- 普通弹窗 -->
@@ -80,8 +85,6 @@
 					</uni-popup-dialog>
 			</uni-popup>
 		</view>
-	</view>
-
 </template>
 
 <script>
